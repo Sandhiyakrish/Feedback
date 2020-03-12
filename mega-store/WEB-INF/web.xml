@@ -1,0 +1,13 @@
+<web-app>
+	<servlet>
+		<servlet-name>sandi</servlet-name>
+		<servlet-class>First</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sandi</servlet-name>
+		<url-pattern>/First</url-pattern>
+	</servlet-mapping>
+	<welocome-file-list>
+		<welcom-file>first.html</welcom-file>
+	</welocome-file-list>
+</web-app>
