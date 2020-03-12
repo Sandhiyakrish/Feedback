@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="F:\project\CSS\bootstrap.min.css">
+  <script src="F:\project\JS\jquery.min.js"></script>
+  <script src="F:\project\JS\bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-default navbar" id="main-menu" role="banner">
+<div class="container">
+<div class="navbar-header"><button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button><a class="navbar-brand" href="index.html"><img class="clglogo" alt="logo"  src="IMAGE/logo-sasurie.png" id="img"></a></div>
+<div class="collapse navbar-collapse navbar-left" id="navbar">
+<ul class="nav navbar-nav"><center>
+  <p>Sasurie College Of Engineering</p></center></ul>
+  <button= data-toggle="modal" data-target="#myModal"><img src="IMAGE/download.jpg" class="img-circle" alt="cinque terre" width="60" height="60"></button>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+                    <form action="dept.html" method="POST">
+           <button type="button" class="close">&times;</button></form>
+          <form action="principal.html" method="POST">
+          <button type="submit" class="btn btn-primary">Log out</button></form>
+        </div>
+        <div class="modal-body"><form action="password.html" method="POST">
+          <button type="submit" class="btn btn-primary">Change password </button> </form>      </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
+      <div class="col-sm-6" id="st">
+    Staff name:</div>
+    <div class="col-sm-6" id="sub">
+    Subject name:</div>
+     <table  border="1" id="table">
+    <thead>
+      <tr>
+        <th id="sno">S.No</th>
+        <th id="feed">Feedback</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>wsdfgn</td>
+      </tr>
+       <tr>
+        <td>2</td>
+        <td>1qwedfgbn</td>
+      </tr>
+       <tr>
+        <td>3</td>
+        <td>1wedfghujnjn</td>
+      </tr>
+    </thead>
+  </table>
+  <div class="col-sm-12" id="sug">
+    <label for="comment">Suggestion</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+        <form action="feed1.html" method="POST">
+        <button type="button" class="btn btn-primary" id="submit">Submit</button></form>
+        </div>
+        <div class="col-sm-2"></div>
+      </div></div>
+
+</header>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+#main-menu
+{
+  background-color:#66d9ff;
+  height: 130px;
+  box-shadow: 0px 0px 5px white;
+}
+#navbar
+{
+  padding-left: 130px;
+  font-family: Andalus;
+  color:#ff4da6;
+  margin-top:10px;
+  background-color:#66d9ff;
+  text-shadow: 0px 0px 2px black;
+}
+
+.nav
+{
+ margin-left:15px;
+ padding-top: 25px;
+ font-size:40px;
+}
+body
+{
+ background-color:white;
+}
+#img
+{
+ margin-top:-20px; 
+ height: 200px; 
+width:165px;
+margin-left:-19px;
+}
+.img-circle
+{
+  margin-left:120%;
+  margin-top:-15%
+}
+#table
+{
+  margin-left:10%;
+  margin-top:15%;
+  font-size:20px;
+}
+#st
+{
+  margin-top:60px;
+  padding-left:70px;
+  font-size:20px;
+}
+#sub
+{
+  margin-top:60px;
+  font-size:20px;
+  padding-left:30px;
+}
+#sno
+{
+  padding-left:30px;
+  font-size:20px;
+  padding-right:30px;
+}
+#feed
+{
+  padding-left:200px;
+  font-size:20px;
+  padding-right:200px;
+}
+#sug
+{
+  font-size:20px;
+  margin-left: 50px;
+  margin-top:22px;
+}
+#comment
+{
+  font-size:20px;
+}
+#submit
+{
+  margin-left:300px;
+  margin-top:28px;
+}
+</style>

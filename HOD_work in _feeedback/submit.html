@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+   <script src="js/jquery.min.js"></script>
+  <script src="js/1.min.js"></script>
+  <link rel="stylesheet" href="css/login.css">
+  <style>
+  body{
+  background-image:url("images/dd.jpg"); 
+ 
+
+}
+#font{
+  font-size:15px;
+}
+
+    #text1{
+      margin-left:-7px;
+      font-size: 25px;
+      text-shadow: 0p;
+      color: darkgreen;
+       
+
+    }
+    
+    .image{
+      height:500px;
+      width:1000px;
+
+    }
+    #nav{
+      background-color:#eae6c7;
+    }
+    #circle{
+  
+
+height:250px;
+border-radius: 20px;
+background-image:url(images/ee.jpg); 
+background-repeat: no-repeat;
+margin-top: 30px;
+background-size: cover;
+
+}
+#bt{
+  background-color:#dbd8d4;
+  color:black;
+  border-radius: 10px;
+  margin-top: 50px;
+ margin-right: 30px;
+  margin-bottom:60px;
+padding-left: 170px;
+
+  
+}
+#bt1{
+  margin-top: -10px;
+  background-color: black;
+  color:red;
+  border-radius: 6px;
+
+}
+.oblique{
+font-size:25px;
+margin-bottom:-25px;
+
+
+}
+
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left:93%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left:85%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.text{
+  padding-left:94px;
+}
+
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#popup2{
+  margin-bottom:-5px;
+}
+.img-circle
+{
+  background-color: #000;
+}
+#checkbox{
+width:20px;
+height: 20px;
+}
+
+  </style>
+
+
+
+</head>
+<body  id="imge">
+<header>
+<nav class="navbar navbar" id="nav">
+  <div class="container-fluid" >
+    <div class="navbar-header">
+      <button type="button " class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <div>
+      <a class="navbar-brand" id="img"> <img src="image\logo.png" id="img1"></a>
+    </div>
+ </div>
+    <div style="width:100%;" class="collapse navbar-collapse" id="myNavbar">
+      <ul style="width:100%;" class="nav navbar-nav">
+        <li class="active">
+          <div class="text">
+          <h1 id="text1">Sasurie FeedBack System</h1>
+        </div>
+         <li style="padding-left:55%;"><div class="popup" onclick="myFunction()" id="popup2"><img src="download.jpg" class="img-circle" alt="Cinque Terre" width="45" height="45">
+  <span class="popuptext" id="myPopup"><button type="button" class="btn btn-primary" id="font">Log out</button>
+      
+      </div>
+     
+  
+</nav>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <input type="checkbox" name="checkbox" id="checkbox">
+      </div>
+      <div class="col-sm-6" id="circle">
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <p class="oblique">Subject & Staff Name</p>
+        
+    <div class="dropdown" id="submit">
+ <button type="" class="button button-block" id="bt">
+
+             
+  <select class="selectpicker" id="option">
+  
+  
+  <option></option>
+  
+  <option></option>
+  
+  
+  <option></option>
+  
+  
+</select>
+ </div></button>
+ <a href="view.html">
+<center><button type="button" class="btn btn-primary" id="bt1">Submit</button></center></a>
+
+        
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+  </div>
+<script>function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
+ 
+<script  src="js/index.js"></script>
+<script  src="js/style.js"></script>
+<script  src="js/jquary.min.js"></script>
+<script  src="js/style.js"></script>
+
