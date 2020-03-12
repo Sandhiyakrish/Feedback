@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+ 
+  <script src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/login.css">
+  <script src="js/bootstrap.min.js"></script>
+<style>
+button {
+    background-color:#4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+
+
+}
+
+
+
+
+  #btn{
+
+border-radius:5px;
+  color:red;
+  opacity: 0.8;
+  
+  
+  
+background-color: yellow;
+padding-left: 20px;
+
+  }
+  #sign{
+    background-color:#152c90;
+
+
+  }
+
+
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+.imgcontainer {
+    text-align: center;    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+.modal {
+    display: none; 
+  position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; `
+    height: 100%; 
+    overflow: auto;
+    background-color: black; 
+    background-color: black; 
+    padding-top: 60px;
+}
+
+
+.modal-content {
+    background-color: black;
+    margin: 5% auto 15% auto;
+    border: 1px  #888;
+    width: 80%;
+}
+
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+#img1
+{
+  margin-left:2%;
+  margin-top:-27%;
+  width: 80%;
+  position: relative;
+
+}
+}
+
+
+
+ 
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+.modal {
+    display: none; 
+  position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; `
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,1); 
+    padding-top: 60px;
+}
+
+
+.modal-content {
+    background-color: black;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+#img1
+{
+  margin-left:2%;
+  margin-top:-27%;
+  width: 80%;
+  position: relative;
+
+}
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+
+
+
+
+</style>
+
+
+</head>
+
+
+<body  id="img">
+<header>
+<nav class="navbar navbar" id="nav">
+  <div class="container-fluid" >
+    <div class="navbar-header">
+      <button type="button " class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <div>
+      <a class="navbar-brand" id="img"> <img src="img\logo.png" id="img1"></a>
+    </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <div class="text">
+          <h1 id="text1" align="center">Sasurie FeedBack System</h1>
+        </div>
+      </li>
+      </div>
+  
+</nav>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+     <div class="form">
+    <div class="tab-content">
+        <div id="signup">   
+          <h1 class="h1" align="right">Welcome</h1>
+          
+          
+          
+             <div class="field-wrap">
+            <label>
+              Reg No<span class="req"></span>
+            </label>
+            <input id="input" type="email" req autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Password<span class="req"></span>
+            </label>
+            <input type="password" req autocomplete="off"/>
+          </div>
+          <div class="row">
+          <button type="submit" style="font-size:14px;color:red;text-align: center;" class="button button-block" id="btn1">LOGIN</button>
+        </div>
+           <div class="row">
+         <center> <button onclick="document.getElementById('id02').style.display='block'" id="btn"  style="height:50px;;color:red;"  id="sign"><b>SIGNUP</b></button></center>
+<div id="id02" class="modal">
+  <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+
+
+
+
+
+
+    <div class="container">
+      <div class="texty">
+<center>Registration</center></div>
+        
+      <label for="NAME"><b>Name</b></label>
+      <input type="text" placeholder="EnterYour Name" name="Name" required id="name" style="color:black"><br />
+
+<label for="Reg_no"><b>Regno</b></label>
+<input type="text" placeholder="Enter Regno" name="Regno" required id="name" style="color:black" ><br />
+
+      
+      <label for="Department"><b>Dept</b></label>
+      <input type="text" placeholder="Enter Department" name="Dept" required id="name"  style="color:black"><br />
+      
+      
+      
+<label for="Mobile No"><b>Ph_no</b></label>
+<input type="text" placeholder="Enter Mobileno" name="ph_no" required id="name" style="color:black"><br />
+
+      
+<label for="Email_no"><b>Email</b></label>
+<input type="text" placeholder="Enter Emailid" name="Emailid" required id="name" style="color:black"><br />
+
+
+       <center> <button type="submit">Submit</button></center>
+    </div>
+    </div>
+</div>
+    
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <div class="col-sm-3"></div>
+  </div>
+</div>
+
+</div>
+        
+          </form>
+
+      
+  
+  <script>
+var modal = document.getElementById('id02')
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script  src="js/index.js"></script>
+<script  src="js/style.js"></script>
+<script  src="js/jquary.min.js"></script>
+<script  src="js/style.js"></script>
+
+</html>
